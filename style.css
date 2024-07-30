@@ -327,6 +327,9 @@ body{
    border-radius: 10px;
 }
 .pro-par{
+   display: flex;
+   justify-content: center;
+   align-items: center;
    height: 87px;
    text-align: center;
 }
@@ -362,7 +365,7 @@ body{
    padding: 15px;
    border-radius: 10px;
 }
-.title h1{
+.title-head{
    display: block;
    margin-bottom: 40px;
    text-align: center;
@@ -414,7 +417,7 @@ body{
    width: 300px;
    border-radius: 5px;
    border: 1;
-   margin-bottom: 20px;
+   margin-bottom: 22px;
 }
 
 .form input[type="email"]{
@@ -423,14 +426,14 @@ body{
    font-size: 16px;
    border-radius: 5px;
    width: 650px;
-   padding: 20px;
+   padding: 22px;
    margin-bottom: 20px;
 }
 
 textarea{
    font-family: Arial, Helvetica, sans-serif;
    font-size: 16px;
-   padding: 20px;
+   padding: 22px;
    max-width: 650px;
    width: 650px;
    margin-bottom: 20px;
@@ -448,6 +451,8 @@ textarea{
    font-size: 15px;
    box-shadow: 0 0  5px cyan;
    border-radius: 25px;
+   display: block;
+   margin:auto;
 }
 
 .form button:hover{
@@ -455,7 +460,7 @@ textarea{
    opacity: 0.7;
    transition: 0.3s;
 }
-@media (max-width: 722px){
+@media (max-width: 727px){
    .form input[type="email"]{
        width: 300px;
    }
