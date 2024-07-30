@@ -467,6 +467,10 @@ textarea{
    textarea{
        width: 300px;
    }
+    .nav-info{
+      justify-content: space-between;
+    }
+
 }
 
 
