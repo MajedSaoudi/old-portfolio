@@ -134,7 +134,7 @@ body{
       display: block;
     }
     .nav-info{
-      justify-content: space-arround;
+      justify-content: space-between;
     }
     ul{
       position: fixed;
@@ -468,7 +468,7 @@ textarea{
        width: 300px;
    }
     .nav-info{
-      justify-content: space-between;
+      justify-content: space-arround;
     }
 
 }
